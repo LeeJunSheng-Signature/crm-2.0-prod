@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "name": "HQ",
+            "code": "HQ",
+            "type": "HQ"
+        },
+        {
+            "name": "KDS",
+            "code": "KDS",
+            "type": "home",
+            "priority": 0
+        },
+        {
+            "name": "PJF",
+            "code": "PJF",
+            "type": "home",
+            "priority": 1
+        },
+        {
+            "name": "PCH",
+            "code": "PCH",
+            "type": "dealer",
+            "priority": 2,
+            "leadcapacity": 2
+        },
+        {
+            "name": "JB",
+            "code": "JB",
+            "type": "dealer",
+            "priority": 3,
+            "leadcapacity": 2
+        },
+        {
+            "name": "MLK",
+            "code": "MLK",
+            "type": "dealer",
+            "priority": 4,
+            "leadcapacity": 2
+        }
+    ]
+}

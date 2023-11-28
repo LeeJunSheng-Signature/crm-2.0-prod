@@ -1,0 +1,54 @@
+import { BaseEntity } from './base-entity.model';
+import { BranchWithRelations } from './branch.model';
+import { Design } from './design.model';
+import { ExhibitionWithRelations } from './exhibition.model';
+import { FinalConfirmationOrder } from './final-confirmation-order.model';
+import { UserWithRelations } from './user.model';
+export declare class Lead extends BaseEntity {
+    uuid?: string;
+    name?: string;
+    email?: string;
+    phone?: string;
+    type?: string;
+    siteAddress?: string;
+    location?: string;
+    property_type?: string;
+    age?: string;
+    propertyStatus?: string;
+    property_value?: string;
+    renovationStatus?: string;
+    propertyUsageStatus?: string;
+    buildUpSizeSquareFeet?: string;
+    time_contact?: string;
+    source_lead?: string;
+    channel_contact?: string;
+    campaign?: string;
+    state?: string;
+    status?: string;
+    rejectReason?: string;
+    requalifyReason?: string;
+    noteToBranch?: string;
+    birthday?: number;
+    race?: string;
+    lostReason?: string;
+    lostRemark?: string;
+    address1?: string;
+    address2?: string;
+    postcode?: string;
+    city?: string;
+    country?: string;
+    locationState?: string;
+    branchId?: string;
+    createdByUserUuid?: string;
+    userId?: string;
+    exhibition?: string;
+    designs: Design[];
+    finalConfirmationOrders: FinalConfirmationOrder[];
+    constructor(data?: Partial<Lead>);
+}
+export interface LeadRelations {
+    branch?: BranchWithRelations;
+    user?: UserWithRelations;
+    exhibition?: ExhibitionWithRelations;
+}
+export declare type LeadWithRelations = Lead & LeadRelations;

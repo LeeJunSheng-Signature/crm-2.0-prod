@@ -1,0 +1,16 @@
+{
+    "data": [
+        { "name": "sysadmin", "displayName": "System Admin" },
+        { "name": "callcenter", "displayName": "Call Center" },
+        { "name": "marketing", "displayName": "Marketing" },
+        { "name": "salesconsultant", "displayName": "Sales Consultant" },
+        { "name": "hQManager", "displayName": "HQ Manager" },
+        { "name": "branchManager", "displayName": "Branch Manager" },
+        { "name": "hQAccountant", "displayName": "HQ Accountant" },
+        { "name": "hQsalessupport", "displayName": "HQ Sales Support" },
+        { "name": "detailer", "displayName": "Detailer" },
+        { "name": "purchaser", "displayName": "Purchaser" },
+        { "name": "logistic", "displayName": "Logistic" },
+        { "name": "factory", "displayName": "Factory" }
+    ]
+}

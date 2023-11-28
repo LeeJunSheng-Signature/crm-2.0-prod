@@ -1,0 +1,1 @@
+.sticky-table .q-table__bottom,.sticky-table .q-table__top,.sticky-table thead tr:first-child th{background-color:#fff}.sticky-table thead tr th{position:-webkit-sticky;position:sticky;z-index:1}.sticky-table thead tr:last-child th{top:48px}.sticky-table thead tr:first-child th{top:0}

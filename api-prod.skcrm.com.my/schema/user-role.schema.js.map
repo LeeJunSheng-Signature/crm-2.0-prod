@@ -1,0 +1,1 @@
+{"version":3,"file":"user-role.schema.js","sourceRoot":"","sources":["../../src/schema/user-role.schema.ts"],"names":[],"mappings":";;;AAAa,QAAA,cAAc,GAAG;IAC5B,IAAI,EAAE,QAAQ;IACd,QAAQ,EAAE,CAAC,QAAQ,CAAC;IACpB,UAAU,EAAE;QACV,MAAM,EAAE;YACN,IAAI,EAAE,QAAQ;SACf;KACF;CACF,CAAC"}

@@ -1,0 +1,51 @@
+import { Entity } from '@loopback/repository';
+import { DesignRelations } from './design.model';
+export declare class QuotationDetails extends Entity {
+    uuid: string;
+    id?: string;
+    kujialeSequenceId?: number;
+    parentId?: string;
+    itemPart: string;
+    category: string;
+    subcategory: string;
+    name?: string;
+    remark?: string;
+    obsMaterialIds?: string;
+    topId?: string;
+    obsBrandGoodId?: string;
+    productNumber?: string;
+    brandGoodCode?: string;
+    brandGoodName?: string;
+    description?: string;
+    size?: object;
+    dimensions?: string;
+    brandGoodDescription?: string;
+    customCode?: string;
+    materialBrandGoodId?: string;
+    materialBrandGoodCode?: string;
+    materialName?: string;
+    materialCustomCode?: string;
+    quotationUnit?: string;
+    quantity?: number;
+    unitPrice?: string;
+    unitCost?: string;
+    nonStandardCoef?: string;
+    additionalFee?: string;
+    price?: string;
+    quotationRate?: number;
+    hided?: boolean;
+    billOutput?: boolean;
+    obsAccountId?: string;
+    baseTexture?: string;
+    recommendedRetailPrice?: number;
+    totalDealerPrice?: number;
+    parentUuid?: string;
+    serviceReportId?: string;
+    designId: string;
+    [prop: string]: any;
+    constructor(data?: Partial<QuotationDetails>);
+}
+export interface QuotationDetailsRelations {
+    design?: DesignRelations;
+}
+export declare type QuotationDetailsWithRelations = QuotationDetails & QuotationDetailsRelations;

@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "key": "sk_rr_kv_loaded",
+            "value": "true"
+        },
+        {
+            "key": "sk_rr_last_inserted_branch",
+            "value": ""
+        },
+        {
+            "key": "sk_rr_last_inserted_position",
+            "value": ""
+        },
+        {
+            "key": "sk_rr_last_suggested_branch",
+            "value": ""
+        },
+        {
+            "key": "sk_rr_role",
+            "value": "salesconsultant"
+        },
+        {
+            "key": "sk_rr_home_cycle",
+            "value": "2"
+        },
+        {
+            "key": "sk_rr_queue",
+            "value": ""
+        },
+        {
+            "key": "sk_rr_branch_cycle",
+            "value": ""
+        },
+        {
+            "key": "sk_rr_number_cycle",
+            "value": ""
+        }
+    ]
+}

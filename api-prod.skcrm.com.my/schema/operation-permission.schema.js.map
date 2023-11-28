@@ -1,0 +1,1 @@
+{"version":3,"file":"operation-permission.schema.js","sourceRoot":"","sources":["../../src/schema/operation-permission.schema.ts"],"names":[],"mappings":";;;AAAa,QAAA,yBAAyB,GAAG;IACvC,IAAI,EAAE,QAAQ;IACd,QAAQ,EAAE,CAAC,aAAa,CAAC;IACzB,UAAU,EAAE;QACV,WAAW,EAAE;YACX,IAAI,EAAE,QAAQ;SACf;KACF;CACF,CAAC"}

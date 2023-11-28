@@ -1,0 +1,1 @@
+{"version":3,"file":"inner-rotation.schema.js","sourceRoot":"","sources":["../../src/schema/inner-rotation.schema.ts"],"names":[],"mappings":";;;AAAa,QAAA,mBAAmB,GAAG;IACjC,IAAI,EAAE,OAAO;IACb,KAAK,EAAE;QACL,IAAI,EAAE,QAAQ;QACd,UAAU,EAAE;YACV,QAAQ,EAAE,EAAC,IAAI,EAAE,QAAQ,EAAC;YAC1B,IAAI,EAAE,EAAC,IAAI,EAAE,QAAQ,EAAC;SACvB;KACF;CACF,CAAC"}
